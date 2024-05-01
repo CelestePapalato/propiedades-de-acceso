@@ -23,5 +23,6 @@ public class Rectangulo : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         canvasManager.HideMessageBox();
+        anim.Stop();
     }
 }
