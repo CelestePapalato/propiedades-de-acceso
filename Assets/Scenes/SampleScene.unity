@@ -595,6 +595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 4
+  nombre: Cubito
 --- !u!212 &1039895117
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -896,6 +897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasManager: {fileID: 188210151}
+  nombreAnimacion: rectangulo animacion
 --- !u!1 &1538241045
 GameObject:
   m_ObjectHideFlags: 0
