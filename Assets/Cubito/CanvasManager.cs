@@ -11,6 +11,11 @@ public class CanvasManager : MonoBehaviour
 
     private void Awake()
     {
+        canvas = GetComponent<Canvas>();
+        if (!canvas)
+        {
+            Destroy(gameObject);
+        }
         if (disableCanvasOnAwake)
         {
             canvas.enabled = false;
