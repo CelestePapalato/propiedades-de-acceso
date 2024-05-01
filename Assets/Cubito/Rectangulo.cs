@@ -6,7 +6,7 @@ public class Rectangulo : MonoBehaviour
 {
     [SerializeField] CanvasManager canvasManager;
     Animation anim;
-    void Awake()
+    void Start()
     {
         anim = GetComponent<Animation>();
     }
@@ -15,7 +15,7 @@ public class Rectangulo : MonoBehaviour
         Cubo cubo;
         if(collision.TryGetComponent<Cubo>(out cubo) && canvasManager)
         {
-            canvasManager.ShowMessageBox("Hola, " + cubo.name);
+            canvasManager.ShowMessageBox("Hola, " + cubo.Nombre);
         }
         anim.Play();
     }
