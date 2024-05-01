@@ -41,6 +41,6 @@ public class Circulo : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         canvasManager.HideMessageBox();
-        anim.Stop();
+        anim.Play();
     }
 }

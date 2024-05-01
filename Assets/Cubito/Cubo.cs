@@ -5,6 +5,7 @@ using UnityEngine;
 public class Cubo : MonoBehaviour
 {
     public float velocidad;
+    [SerializeField]
     private string nombre;
     public string Nombre
     {

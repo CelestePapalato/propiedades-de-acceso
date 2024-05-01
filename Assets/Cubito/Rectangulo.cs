@@ -5,6 +5,7 @@ using UnityEngine;
 public class Rectangulo : MonoBehaviour
 {
     [SerializeField] CanvasManager canvasManager;
+    [SerializeField] string nombreAnimacion;
     Animation anim;
     void Start()
     {
@@ -17,12 +18,12 @@ public class Rectangulo : MonoBehaviour
         {
             canvasManager.ShowMessageBox("Hola, " + cubo.Nombre);
         }
-        anim.Play();
+        anim.Play(nombreAnimacion);
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         canvasManager.HideMessageBox();
-        anim.Stop();
+        anim.Play();
     }
 }

@@ -875,9 +875,10 @@ Animation:
   m_GameObject: {fileID: 1527910158}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: a8f965c77dcec3545a2aec246eab0cf8, type: 2}
+  m_Animation: {fileID: 7400000, guid: 82c1938e053634f4f8f72662cf618314, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: a8f965c77dcec3545a2aec246eab0cf8, type: 2}
+  - {fileID: 7400000, guid: 82c1938e053634f4f8f72662cf618314, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -1044,10 +1045,11 @@ Animation:
   m_GameObject: {fileID: 1935751296}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: 351b11ef5076d4448b880498e3a82295, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 0f34da7913f24cd46864697354a22853, type: 2}
   - {fileID: 7400000, guid: 4dfd671961ec2a141b1044c459160ce6, type: 2}
+  - {fileID: 7400000, guid: 351b11ef5076d4448b880498e3a82295, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -1064,6 +1066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bed4d14a9250c0b40aff4c3c5f79fb82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvasManager: {fileID: 188210151}
   nombreAnimacion1: circulo animacion 1
   nombreAnimacion2: circulo animacion 2
 --- !u!58 &1935751299
